@@ -1,0 +1,99 @@
+.addingConversation {
+    background-color: black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.addConvUi {
+    width: 70%;
+    height: 70%;
+    background-color: #eaeff2;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactsCheckbox {
+    width: 10%;
+    height: auto;
+    background-color: blanchedalmond;
+}
+
+.addConvButton {
+    margin-top: 20px !important;
+}
+
+.activeConv {
+    background-color: rgb(122, 122, 122);
+    width: 90%;
+    height: 10%;
+
+    border: 2px solid rgb(90, 90, 90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 1.8em;
+    margin-top: 2%;
+}
+
+.unactiveConv {
+    background-color: rgb(250, 250, 250);
+    width: 90%;
+    height: 10%;
+
+    border: 2px solid rgb(143, 143, 143);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 1.8em;
+    margin-top: 2%;
+}
+
+.addNewConversation {
+    color: red;
+    background-color: red;
+}
+
+.addConvBtn {
+    margin-top: auto;
+    /* margin-left: 15%; */
+    width: 100%;
+    height: 100%;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    /* padding: 5px 10px; */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+        7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    background: #adb5bd;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.addConvBtn:hover {
+    background-color: #ced4da;
+}
+.addConvBtn:active {
+    top: 2px;
+}

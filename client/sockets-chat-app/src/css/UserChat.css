@@ -1,0 +1,72 @@
+.userConversation {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.revinLater {
+    width: 100%;
+    height: 100%;
+
+    background-color: #ffffff;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.revinLater::-webkit-scrollbar {
+    display: none;
+}
+
+.msgInput {
+    width: 100%;
+    height: 10%;
+    margin-top: auto;
+}
+
+.msgInput .field {
+    /* width: 100%; */
+    height: 100%;
+    border-radius: 22px solid brown !important;
+    /* padding-top: 4%; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.field Button {
+    height: 40%;
+    width: 5%;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.outlined-input {
+    background-color: cadetblue;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.outlined-input input {
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    /* background-color: brown; */
+    width: 100%;
+    height: 100%;
+
+    font-size: 16px;
+    padding-left: 20px;
+
+    /* padding-top: -20px; */
+}
+
+.outlined-input input:focus {
+    outline: none;
+}
+
+.outlined-input input:focus::placeholder {
+    color: transparent;
+}

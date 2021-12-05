@@ -1,0 +1,21 @@
+.loginPg {
+    background-color: rgba(65, 65, 223, 0.6);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginPg input {
+    width: 20%;
+    height: 20px;
+}
+
+.buttonsLogin Button {
+    margin: 18px;
+}
+.loginPg Input {
+    width: auto;
+    left: auto;
+}

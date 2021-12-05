@@ -1,0 +1,65 @@
+.chatConv {
+    display: flex;
+    flex-direction: column;
+}
+
+.myMessage {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.userMessage {
+    background-color: #1f1f1f;
+    color: #b8b8b8;
+    /* margin-top: 5%; */
+    margin-left: right;
+    border-radius: 0.65rem;
+    padding: 0.3rem 1.5rem;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    width: fit-content;
+    max-width: 70%;
+}
+.userUIDdisplay {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    /* float: left; */
+    margin-bottom: 0.5%;
+    margin-left: 0.4%;
+    opacity: 0.2;
+}
+
+.theyMsg {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+.receiveMsg {
+    float: right;
+    padding-right: 5%;
+    background-color: #f7f4f0;
+    /* margin-top: 5%; */
+    margin-left: auto;
+    border-radius: 0.65rem;
+    padding: 0.3rem 1.5rem;
+    max-width: 70%;
+    font-weight: 500;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+}
+
+.receiveMsgUid {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    /* background-color: cadetblue; */
+    margin-left: auto;
+    margin-bottom: 0.5%;
+    margin-right: 1%;
+    opacity: 0.2;
+
+    /* padding-right: 5%; */
+}
